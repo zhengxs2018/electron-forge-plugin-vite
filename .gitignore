@@ -1,0 +1,15 @@
+.DS_Store
+
+.history/
+node_modules/
+
+.eslintcache
+
+coverage/
+dist/
+types/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

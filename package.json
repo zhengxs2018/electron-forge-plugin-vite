@@ -1,0 +1,36 @@
+{
+  "name": "@zhengxs/electron-forge-plugin-vite",
+  "version": "0.1.1",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "format": "prettier . --write --loglevel=warn"
+  },
+  "files": [
+    "dist/",
+    "types/"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@electron-forge/async-ora": "^6.0.0-beta.61",
+    "@electron-forge/shared-types": "^6.0.0-beta.61",
+    "rollup": "^2.57.0",
+    "vite": "^2.5.10"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  },
+  "registry": {
+    "type": "git",
+    "url": "https://github.com/@zhengxs2018/electron-forge-plugin-vite"
+  },
+  "author": {
+    "name": "zhengxs",
+    "email": "zhengxs2018@foxmail.com"
+  },
+  "license": "MIT"
+}
